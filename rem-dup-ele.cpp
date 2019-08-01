@@ -14,7 +14,7 @@ int main() {
     
 for(int i = 0 ; i < n ; i++){
     for(int j = i+1 ; j < n ; j++){
-        if(arr[i] > 0 && arr[j] > 0 ){
+        if(arr[i] != NULL && arr[j] != NULL ){
             if(arr[i] == arr[j] ){
                 
                 arr[j] = NULL;
